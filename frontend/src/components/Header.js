@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom';
+import './dashing/Header.css'
 import 
  {BsFillBellFill, BsFillEnvelopeFill, BsPersonCircle, BsSearch, BsJustify}
  from 'react-icons/bs'
@@ -37,7 +38,7 @@ export default function Header({
         <div className='header-left'>
             <BsSearch  className='icon'/>
         </div>
-        <div className='header-right'>
+        <div className='header-right header_icon'>
             <BsFillBellFill className='icon'/>
             <BsFillEnvelopeFill className='icon'/>
             <BsPersonCircle className='icon'/>
