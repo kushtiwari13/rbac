@@ -90,14 +90,14 @@ function Home() {
             <div className='main-cards'>
                 <div className='card'>
                     <div className='card-inner'>
-                        <h1 id="Approved" onClick={hendleclick} className={`text-slate-200 cursor-pointer ${activeButton === 'Button-1' ? 'bg-cyan-500 p-1 rounded-full text-black font-bold ' : ''}`}>Approved User</h1>
+                        <h1 id="Approved" onClick={hendleclick} className={`text-slate-200 cursor-pointer ${activeButton === 'Button-1' ? ' p-1  text-black font-bold ' : ''}`}>Approved User</h1>
                         <BsFillArchiveFill className='card_icon' />
                     </div>
                     <h1>{Data.length}</h1>
                 </div>
                 <div className='card'>
                     <div className='card-inner'>
-                        <h1 id="NotApproved" onClick={hendleclick} className={`text-slate-200 cursor-pointer ${activeButton === 'Button-2' ? 'bg-cyan-500 p-1 rounded-full text-black font-bold ' : ''}`}>Not Approved User</h1>
+                        <h1 id="NotApproved" onClick={hendleclick} className={`text-slate-200 cursor-pointer ${activeButton === 'Button-2' ? ' p-1  text-black font-bold ' : ''}`}>Not Approved User</h1>
                         <BsFillGrid3X3GapFill className='card_icon' />
                     </div>
                     <h1>{Data.length}</h1>
