@@ -18,6 +18,6 @@ app.use(cros());
 
 app.use(router)
 
-app.listen(3001, () => {
+app.listen(3001, '0.0.0.0', () => {
     console.log("app started at localhost 3001");
 });
